@@ -69,6 +69,9 @@ function draw() {
     
   }
   
+  if (backGround.x>0){
+    backGround.x = backGround.width/2;
+  }
   if (bananaGroup.isTouching(monkey)){
       score = score + 2;
       fruit.destroy();
