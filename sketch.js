@@ -69,7 +69,7 @@ function draw() {
     
   }
   
-  if (backGround.x>0){
+  if (backGround.x<100){
     backGround.x = backGround.width/2;
   }
   if (bananaGroup.isTouching(monkey)){
